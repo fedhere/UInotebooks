@@ -30,7 +30,7 @@ Linux, Mac, Widows (gitbash or something else...).
 Otherwise it's gonna be garbage in -> garbage out. 
 I recommand you look on http://stackoverflow.com/ to get a sense of how people 
 write questions the proper way, and by all means not everyone does. Look at the replies and see 
-if the users that are trying to answer need a lot of additional material, or if they are complaining about the format of the question). 
+if the users that are trying to answer need a lot of additional material, or if they are complaining about the format of the question. 
 
 In summary, help us help you! 
 
