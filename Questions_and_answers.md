@@ -21,7 +21,7 @@ Also, look around! Look on the *NYU classes* resources, announcements, board, to
 by your classmates. Google it, and look on http://stackoverflow.com/. By all means, if you find solutions that are not clear to you, 
 or you do not a find solution, come to us. But try to solve the problem yourself first, because I assure you will learn more that way. 
 
-Lastly: give us all the information we need to help you. That is a tough one: it takes some time and experience to figure out what the person on our end needs to know about your error to be able to understand it: coding you get obviously very, very intimate with your code... it is easy to loose track of the fact that on the other end we know little to nothing about it!
+Lastly: give us all the information we need to help you. That is a tough one: it takes some time and experience to figure out what the person on our end needs to know about your error to be able to understand it. While coding you get obviously very, very intimate with your code... it is easy to loose sight of the fact that on the other end we know little to nothing about it!
 If you have an error on your terminal, tell us, by copy and paste 
 and/or w a screenshot, what **the command** that causes the error is, 
 and what **the full error** is. If it is code you are running, 
@@ -29,7 +29,7 @@ make sure we have access to the code to inspect it. Tell us which platform you a
 Linux, Mac, Widows (gitbash or something else...). 
 Otherwise it's gonna be garbage in -> garbage out. 
 I recommand you look on http://stackoverflow.com/ to get a sense of how people 
-write questions the proper way(and by all means not everyone does: look at the replies and see 
+write questions the proper way, and by all means not everyone does. Look at the replies and see 
 if the users that are trying to answer need a lot of additional material, or if they are complaining about the format of the question). 
 
 In summary, help us help you! 
