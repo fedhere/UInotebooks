@@ -1,7 +1,9 @@
 # UInotebooks
 
 
-this is a repo contains ALL code generated for Principles of Urban Informatics Class at NYU CUSP Fall 2015, for all the lectures taught by FBB. 
+this is a repo contains ALL code generated for [Principles of Urban Informatics Class at NYU CUSP Fall 2015 ](http://cosmo.nyu.edu/~fb55/UI_CUSP_2015/)
+
+for all the lectures taught by FBB. 
 
 this includes notebooks that will be explored in class, notebooks to be used as templates for lab sessions, and notebooks that generate plots used in the class.
 
