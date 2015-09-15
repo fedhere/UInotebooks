@@ -7,15 +7,14 @@ However, and especially considering there are about 100 of you, please try to re
 asking questions the right way, and making efforts to find a solution on your own before you come to us. 
 Turns out this workflow, which minimizes our effort, also maximizes your learning. 
 
-First off: if you come across an error message, in bash, Python, or in whichever software or language you are 
-working, **READ THE ERROR**. By that I mean go beyond the word 'error' or the word 'fatal' and try and understand 
-what the software is complaining about. Many pieces of software will offer details, and propose solutions to you 
-right away! Git for example always gives you suggestions on what to do to address an error. 
+If you come across an error message, in bash, Python, or in whichever software or language you are 
+working, the first thing to do is to actually **read the error**. By that I mean I know there is a small sense of panic and defeat when you get an error, which makes you want to give up, feel helpless, and reach for assistance, but you should go beyond the word 'error' or the word 'fatal' and try and understand 
+what the software is complaining about. Many pieces of software will offer details about the error, try to identify the culprit, and propose solutions to you. Git for example always gives you suggestions on what to do to address an error. 
 
-Second, **READ THE ERROR! EVERY TIME**! Just because you still have an error after changing things up do not assume that 
+The next thing is read the error **every time!**. Just because you still have an error after changing things up do not assume that 
 it is the same error. Your code, just like mine, just like anyone's, is blooming with bugs like a warm summer night 
-in NYC. Even when it works, and even when it gives the correct answer, it's still buggy. As you solve one issue 
-others may come up. Read the error message every time. As you can imagine it is quite annoying if you tell me the 
+in NYC. Even when it works, and even when it gives the correct answer, it's still buggy, i promise! It is the course of the coder. As you solve one issue 
+others may come up. Read the error message every time - it may be different then the first one. Sometimes the end of the error is the same but the body refers to a completely different ussue. As you can imagine it is quite annoying if you tell me the 
 solution I gave you had no effect, and I go look into the problem and try and figure out another solution, and then 
 it turns out I had in fact solved the problem days ago, and something else entirely was also wrong. 
 
