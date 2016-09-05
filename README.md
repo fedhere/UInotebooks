@@ -7,7 +7,7 @@ for all the lectures taught by FBB.
 
 this includes notebooks that will be explored in class, notebooks to be used as templates for lab sessions, and notebooks that generate plots used in the class.
 
-to run the notebooks, make sure that you have a directory for the plots to be stored in, identified by the environmental variable PUI15PLOTS
+to run the notebooks, make sure that you have a directory for the plots, and outputs to be stored in, identified by environmental variables PUI2015, PUI15PLOTS, PUI2016 etc, as needed.
 
 numerous python packages are needed: numpy, scipy, sklearn, statsmodules, pandas. 
 
