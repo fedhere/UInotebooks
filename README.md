@@ -5,7 +5,7 @@ This is a repo contains ALL code generated for [Principles of Urban Informatics 
 
 (previous years: [2015 is here ](http://cosmo.nyu.edu/~fb55/UI_CUSP_2015))
 
-For the current homework sets and labs go to [this](http://github.com/fedhere/PUI2016) Github repo.
+For the current homework sets and labs go to [this](http://github.com/fedhere/PUI2016_fb55) Github repo.
 
 
 
