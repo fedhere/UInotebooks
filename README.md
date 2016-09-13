@@ -1,7 +1,7 @@
 # UInotebooks
 
 
-This is a repo contains ALL code generated for [Principles of Urban Informatics Class at NYU CUSP Fall 2016](http://cosmo.nyu.edu/~fb55/PUI2016/) for all the lectures taught by [FBB](http://cosmo.nyu.edu/~fb55/). 
+This is a repo contains ALL code generated for [Principles of Urban Informatics Class at NYU CUSP Fall 2016](http://cosmo.nyu.edu/~fb55/PUI2016/) for all the lectures taught by [FBB](http://fbb.space). 
 
 (previous years: [2015 is here ](http://cosmo.nyu.edu/~fb55/UI_CUSP_2015))
 
