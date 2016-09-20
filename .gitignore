@@ -1,2 +1,11 @@
 *~
-.csv
+*/.ipython_checkpoints
+*/*.DS*
+*.jpg
+*.gif
+*.zip
+*.png
+Untitled*
+*.pyc
+.ipython_checkpoints
+*.csv
