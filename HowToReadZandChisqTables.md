@@ -14,7 +14,7 @@ __COLUMN__: then look for the column with the closest second and third, if avail
 
 THE NUMBER AT THE INTERSECTION IS  0.9147.
 
-![]('Normal01.jpg')
+![](Normal01.jpg)
 
 the p-value is  1- the number you read off the table. In our example: 1-0.9147 = 0.0853
 
@@ -30,7 +30,7 @@ __ROW__: look for the row with the right number of degrees of freedom (sometimes
 
 __COLUMN__: look for the column that has the statistical significance you required (e.g. 0.05 for alpha=0.05!)
 
-![]('chi-square-table.gif')
+![](chisqtable.jpeg)
 
 the number at the interception (3.842) of that row and column is the MINIMUM CHI SQ significant value. Meaning if you obtaied from your chi-squared test a value larger than that you have rejection of null at the p value corresponding to the alpha you have set.
 
