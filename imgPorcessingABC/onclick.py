@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import scipy.ndimage as nd
 
 
-img = nd.imread("esb.jpg")
+img = nd.imread("sol_2.png")
 fig = plt.figure()
 ax = fig.add_subplot(111)
 ax.imshow(img)
