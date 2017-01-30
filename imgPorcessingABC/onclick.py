@@ -1,30 +1,30 @@
+from __future__ import print_function
+__author__ = 'fbb 2017'
 import numpy as np
 import matplotlib.pyplot as plt
 import scipy.ndimage as nd
+import sys
 
+''' pass it an image and on click it returns the pixel location and flux values in all image channels at that location '''
 
-img = nd.imread("sol_2.png")
+if not len(sys.argv) == 2:
+    print ('''use as 
+python onclick.py <image file name>''')
+    sys.exit()
+    
+img = nd.imread(sys.argv[1])
 fig = plt.figure()
 ax = fig.add_subplot(111)
 ax.imshow(img)
 
-coords = [0,0]
-
+ix, iy = 0, 0
 def onclick(event):
-    global ix, iy
     ix, iy = event.xdata, event.ydata
-    print 'x = %d, y = %d'%(
-        ix, iy)
-
-
-    coords = [ix, iy]
-    print (ix,iy)
+    print ('x = %d, y = %d'%(ix, iy))
     print ("flux:", img[int(iy),int(ix),:])
-    return coords
 
 
 for i in xrange(0,1):
-
     cid = fig.canvas.mpl_connect('button_press_event', onclick)
 
 
