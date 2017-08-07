@@ -105,7 +105,7 @@ Lecture and reading schedule (subjects to change as needed!):
 
 Missing Topics that could or should be included:
 
-		  optimization techniques (gradient descent, annealing...)
+    optimization techniques (gradient descent, annealing...)
     designing experiments 
     web/mobile coding
     Audio vs Video data
