@@ -38,8 +38,6 @@ Otherwise, if you want the repository on your account, with the ability to  make
  
 The material here is for a class based on the following syllabus:
 
-Lecture and reading schedule (subjects to change as needed!):
-
 1.  
 
     Lecture: philosophy and good practices of data science: the flow chart of a data-driven project from idea to divulgation,  the concepts of falsifiability, reproducibility, open science, the importance of version control, iPython Notebooks
