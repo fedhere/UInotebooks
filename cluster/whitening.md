@@ -5,29 +5,51 @@
 Dividing every feature (column  of a dataframe) by its standard deviation. Thus the new standard deviaion of the feature is 1.
 
 **obs|feat1|feat2|feat3| ... |featn|**
+
 ___________________________________
+
 o1 | y11 | y12 | y13 | ... | y1N |
+
 o2 | y21 | y22 | y23 | ... | y2N |
+
 o3 | y31 | y32 | y33 | ... | y3N |
+
 o4 | y41 | y42 | y43 | ... | y4N |
+
 ...
+
 oM | yM1 | yM2 | yM3 | ... | yMN |
 
+
 feat1 -> feat1 / std(feat1)
+
 feat2 -> feat2 / std(feat2)
+
 feat3 -> feat3 / std(feat3)
+
 feat4 -> feat4 / std(feat4)
+
 ...
+
 featn -> featn / std(featn)
+
+
 
 it is advisable to also normalize the features (so that they have all the same importance it is the definition of thex distance defines the relative importance):
 
 feat1 -> (feat1 - mean(feat1)) / std(feat1)
+
 feat2 -> (feat2 - mean(feat2)) / std(feat2)
+
 feat3 -> (feat3 - mean(feat3)) / std(feat3)
+
 feat4 -> (feat4 - mean(feat4)) / std(feat4)
+
 ...
+
 featn -> (featn - mean(featn)) / std(featn)
+
+
 
 
     2. Why are we doing it?
@@ -54,10 +76,15 @@ In this case whitening would modify the intrinsic shape of the time series, and 
 In this case, however, we normalize the feature vectore by observation:
 
 obs1 -> (obs1 - mean(obs1)) / std(obs1)
+
 obs2 -> (obs2 - mean(obs2)) / std(obs2)
+
 obs3 -> (obs3 - mean(obs3)) / std(obs3)
+
 obs4 -> (obs4 - mean(obs4)) / std(obs4)
+
 ...
+
 obsn -> (obsn - mean(obsn)) / std(obsn)
 
 
