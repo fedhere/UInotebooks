@@ -5,7 +5,7 @@
 Dividing every feature (column  of a dataframe) by its standard deviation. Thus the new standard deviaion of the feature (of every column of your dataframe) is 1.
 
 
-|obs|feat 1|feat 2|feat 3| ... |feat n|
+|obs|feat1|feat2|feat3| ... |feat N|
 |-----|-----|-----|-----|-----|-----|
 |o1 | y11 | y12 | y13 | ... | y1N |
 |o2 | y21 | y22 | y23 | ... | y2N |
@@ -25,7 +25,7 @@ feat4 -> feat4 / std(feat4)
 
 ...
 
-featn -> featn / std(featn)
+feat N -> feat N / std(feat N)
 
 
 
@@ -41,7 +41,7 @@ feat4 -> (feat4 - mean(feat4)) / std(feat4)
 
 ...
 
-featn -> (featn - mean(featn)) / std(featn)
+featN -> (featN - mean(featN)) / std(featN)
 
 
 
@@ -79,4 +79,4 @@ obs4 -> (obs4 - mean(obs4)) / std(obs4)
 
 ...
 
-obsn -> (obsn - mean(obsn)) / std(obsn)
+obsM -> (obsM - mean(obsM)) / std(obsM)
