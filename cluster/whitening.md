@@ -79,10 +79,3 @@ obs4 -> (obs4 - mean(obs4)) / std(obs4)
 ...
 
 obsn -> (obsn - mean(obsn)) / std(obsn)
-
-
-| o1  |   |   |   |   |
-|-----|---|---|---|---|
-| o2  |   |   |   |   |
-| o3  |   |   |   |   |
-| ... |   |   |   |   |
