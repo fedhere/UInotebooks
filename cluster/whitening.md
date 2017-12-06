@@ -2,7 +2,7 @@
 
     1. What are we doing?
 
-Dividing every feature (column  of a dataframe) by its standard deviation. Thus the new standard deviaion of the feature is 1.
+Dividing every feature (column  of a dataframe) by its standard deviation. Thus the new standard deviaion of the feature (of every column of your dataframe) is 1.
 
 |**obs|feat1|feat2|feat3| ... |featn**|
 |-----|-----|-----|-----|-----|-----|
@@ -65,8 +65,8 @@ When the covariance of your features needs to be preserved. For example when you
 
     D = Sum\_i (Sum\_j,k |y\_j(t\_i) - y\_k(t\_i)|)
 
-In this case whitening would modify the intrinsic shape of the time series, and thus modify tthe true distance. 
-In this case, however, we normalize the feature vectore by observation:
+In this case whitening would modify the intrinsic shape of the time series, and thus modify the true distance. 
+In this case, however, we normalize the feature vectore by observation (by row) so that the mean of each observattion (row of your dataframe) is 0 and the standard deviation is 1:
 
 obs1 -> (obs1 - mean(obs1)) / std(obs1)
 
