@@ -4,21 +4,14 @@
 
 Dividing every feature (column  of a dataframe) by its standard deviation. Thus the new standard deviaion of the feature is 1.
 
-**obs|feat1|feat2|feat3| ... |featn|**
-
-___________________________________
-
-o1 | y11 | y12 | y13 | ... | y1N |
-
-o2 | y21 | y22 | y23 | ... | y2N |
-
-o3 | y31 | y32 | y33 | ... | y3N |
-
-o4 | y41 | y42 | y43 | ... | y4N |
-
-...
-
-oM | yM1 | yM2 | yM3 | ... | yMN |
+|**obs|feat1|feat2|feat3| ... |featn**|
+|-----|-----|-----|-----|-----|-----|
+|o1 | y11 | y12 | y13 | ... | y1N |
+|o2 | y21 | y22 | y23 | ... | y2N |
+|o3 | y31 | y32 | y33 | ... | y3N |
+|o4 | y41 | y42 | y43 | ... | y4N |
+|...||||||
+|oM | yM1 | yM2 | yM3 | ... | yMN |
 
 
 feat1 -> feat1 / std(feat1)
@@ -88,10 +81,8 @@ obs4 -> (obs4 - mean(obs4)) / std(obs4)
 obsn -> (obsn - mean(obsn)) / std(obsn)
 
 
-$$
-M = \left( \begin{array}{ccc}
-x_{11} & x_{12} & \ldots \\
-x_{21} & x_{22} & \ldots \\
-\vdots & \vdots & \ldots \\
-\end{array} \right)
-$$
+| o1  |   |   |   |   |
+|-----|---|---|---|---|
+| o2  |   |   |   |   |
+| o3  |   |   |   |   |
+| ... |   |   |   |   |
