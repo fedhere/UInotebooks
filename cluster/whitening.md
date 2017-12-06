@@ -2,7 +2,7 @@
 
     1. What are we doing?
 
-Dividing every feature (column  of a dataframe) by its standard deviation. Thus the new standard deviaion of the feature (of every column of your dataframe) is 1.
+Dividing every feature (column  of a dataframe) by its standard deviation. Thus the new variance of the feature (of every column of your dataframe) is 1.
 
 
 |obs|feat1|feat2|feat3| ... |feat N|
@@ -29,7 +29,7 @@ feat N -> feat N / std(feat N)
 
 
 
-it is advisable to also normalize the features (so that they have all the same importance it is the definition of thex distance defines the relative importance):
+it is advisable to also normalize the features (so that they have all the same importance it is the definition of the *distance* defines the relative feature importance):
 
 feat1 -> (feat1 - mean(feat1)) / std(feat1)
 
@@ -48,11 +48,11 @@ featN -> (featN - mean(featN)) / std(featN)
 
     2. Why are we doing it?
 
-Removing spurious covariance. Normally we assume that the features are independent when we set up to investigate them with any machine learning method (avoid colinearity in the exogenous variables). In factt there are different kinds of whitening. Standardization simply sets the variance of each feature to 1, and is what I described above. Full whitening (more complex) transforms the covariance matrix of the feature set to the identity matrix. This can be done if the covariance matrix is invertible. This in fact removes covariance. 
+Removing spurious covariance. Normally we assume that the features are independent when we set up to investigate them with any machine learning method (avoid colinearity in the exogenous variables). In fact, there are different kinds of whitening. Standardization simply sets the variance of each feature to 1, and is what I described above. Full whitening (more complex) transforms the covariance matrix of the feature set to the identity matrix. This can be done if the covariance matrix is invertible. This does remove covariance. 
 
 X is a vector with covariance matrix M, which is not singular (invertible)
 
-W is a matric <=> W^T W = M^-1 <=> W^T W M = I
+W is a matrix <=> W^T W = M^-1 <=> W^T W M = I
 
 then 
 
