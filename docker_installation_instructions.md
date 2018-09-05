@@ -40,6 +40,7 @@ docker login
 - Clone the github repo (to run container using docker-compose. For other ways of running, checkout the README file in the repo)
 ``` bash
 git clone https://github.com/Mohitsharma44/ucsl-image
+cd ucsl-image/image/
 ```
 - Edit docker-compose to point to the correct volume where you have the notebooks or want the notebooks to persist
 ``` yaml
