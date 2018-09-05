@@ -105,14 +105,15 @@ docker rm -f ucsl-container
 ```
 Docker for Windows requires Windows 10 PRO or Enterprise version XXXXX or Windows Server XXXX RTM to run
 ```
-Are you running Windows 10 **PRO**? [https://support.microsoft.com/en-us/help/13443/windows-which-operating-system](How to Check Windows version)
+Are you running Windows 10 **PRO**?[https://support.microsoft.com/en-us/help/13443/windows-which-operating-system](How to Check Windows version)
+
 > Make sure you are running 64bit Windows 10 Pro, Enterprise (1607 Anniversary Update, Build 14393 or later).
 
 - I am running Windows 10 (Home or anything else) and I get the following error (or similar error about HyperV):
 ```
 HyperV is not available on Home editions. Please use Docker Toolbox
 ```
-As a matter of fact [proof](https://docs.docker.com/docker-for-windows/install/#download-docker-for-windows), Windows 10 *non PRO* OSes don't have HyperV capability. Since Docker cannot run directly on Windows Machine, you need a layer of virtualization to support the container functionality.
+As a matter of [fact](https://docs.docker.com/docker-for-windows/install/#download-docker-for-windows), Windows 10 *non PRO* OSes don't have HyperV capability. Since Docker cannot run directly on Windows Machine, you need a layer of virtualization to support the container functionality.
 Download [https://docs.docker.com/v17.09/toolbox/toolbox_install_windows/](Docker ToolBox) and install it.
 
 - Still having Docker installation issues on Windows?
@@ -123,5 +124,5 @@ https://docs.docker.com/docker-for-windows/release-notes/
 Make sure HyperV is enabled on your machine. Check [https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v](How-TO)
 
 - Still nothing?
-Switch to Linux already. SMH
+Switch to [https://www.ubuntu.com/](Linux) already. SMH
 (sorry, I'm all out of options right now. Try Google or come meet me after class and I can point you to last years document on running PUI in a VM on your local machine.)
