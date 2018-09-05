@@ -99,7 +99,7 @@ docker rm -f ucsl-container
 ```
 
 
-FAQ
+## FAQ
 
 - I'm running windows and during installation I get the following error:
 ```
