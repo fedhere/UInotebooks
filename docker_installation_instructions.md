@@ -10,7 +10,7 @@
 **Mac Users**:
 - Download and Install: https://download.docker.com/mac/stable/Docker.dmg
 
-**Windows 10 PRO**
+**Windows 10 PRO** [For people with issues installing Docker on Windows, check FAQ below]
 - Download and Install: https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe
 > If the above installer fails, try one form this link: https://docs.docker.com/docker-for-windows/release-notes/#stable-releases-of-2018
 
@@ -47,8 +47,9 @@ git clone https://github.com/Mohitsharma44/ucsl-image
 cd ucsl-image/image/
 ```
 
-
 - 4.2 Edit docker-compose to point to the correct volume where you have the notebooks or want the notebooks to persist
+*You don't need to run this block of code. It is the content of ucsl-image/image/docker-compose.yml file.*
+
 ``` yaml
 version: '2.3'
 
@@ -67,12 +68,21 @@ services:
         source: <relative or absolute path to your notebooks directory>
         target: /home/${NB_USER}/puinotebooks/
 ```
-- 4.3 Run the container
+
+- 4.3 Run the container (see note below to change the username)
 ``` bash
 $ cd ucsl-image/image
+$ echo NB_USER=ucsl_user > .env
 $ docker-compose up
 ```
-> you can pass the -d flag to `docker-compose up` if you want to run this as a daemon
+> - If you want to personalize your container, you can use your own username inside the container; to do that you can do the following. 
+>``` bash
+>$ cd ucsl-image/image
+>$ echo NB_USER=<your username> > .env
+>$ docker-compose up build
+>```
+
+> - you can pass the -d flag to `docker-compose up` if you want to run this as a daemon
 
 ## 5 Stopping the container
 ``` bash
@@ -87,3 +97,31 @@ docker-compose down
 ``` bash
 docker rm -f ucsl-container
 ```
+
+
+FAQ
+
+- I'm running windows and during installation I get the following error:
+```
+Docker for Windows requires Windows 10 PRO or Enterprise version XXXXX or Windows Server XXXX RTM to run
+```
+Are you running Windows 10 **PRO**? [https://support.microsoft.com/en-us/help/13443/windows-which-operating-system](How to Check Windows version)
+> Make sure you are running 64bit Windows 10 Pro, Enterprise (1607 Anniversary Update, Build 14393 or later).
+
+- I am running Windows 10 (Home or anything else) and I get the following error (or similar error about HyperV):
+```
+HyperV is not available on Home editions. Please use Docker Toolbox
+```
+As a matter of fact [proof](https://docs.docker.com/docker-for-windows/install/#download-docker-for-windows), Windows 10 *non PRO* OSes don't have HyperV capability. Since Docker cannot run directly on Windows Machine, you need a layer of virtualization to support the container functionality.
+Download [https://docs.docker.com/v17.09/toolbox/toolbox_install_windows/](Docker ToolBox) and install it.
+
+- Still having Docker installation issues on Windows?
+Try installing one of the versions mentioned on this page:
+https://docs.docker.com/docker-for-windows/release-notes/
+
+- Still no dice?
+Make sure HyperV is enabled on your machine. Check [https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v](How-TO)
+
+- Still nothing?
+Switch to Linux already. SMH
+(sorry, I'm all out of options right now. Try Google or come meet me after class and I can point you to last years document on running PUI in a VM on your local machine.)
