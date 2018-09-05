@@ -1,4 +1,4 @@
-**NOTE: even if you cannot get this far due to installation issues, make sure you download both the docker image and the docker software so we do not run into issues with slow wireless tomorrow: step 1 and 4**
+**NOTE: even if you cannot get this far due to installation issues, make sure you download both the docker image and the docker software so we do not run into issues with slow wireless tomorrow: step 1, 2, and 4.1**
 
 
 
