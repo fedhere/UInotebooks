@@ -1,12 +1,12 @@
-**NOTE: even if you cannot get this far due to installation issues, make sure you download both the docker image and the docker software so we do not run into issues with slow wireless tomorrow **
+**NOTE: even if you cannot get this far due to installation issues, make sure you download both the docker image and the docker software so we do not run into issues with slow wireless tomorrow: step 1 and 4**
 
 
 
-## Registering for an account on dockerhub
+## 1 Registering for an account on dockerhub
 - Go to https://hub.docker.com and register yourself (you can use any username and email address that you wish)
 - Login to https://hub.docker.com
 
-## Installing Docker and docker-compose
+## 2 Installing Docker and docker-compose
 **Mac Users**:
 - Download and Install: https://download.docker.com/mac/stable/Docker.dmg
 
@@ -33,22 +33,22 @@ $ sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker
 $ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-## Verify the installation was successful and login
+## 3 Verify the installation was successful and login
 ``` bash
 docker --version
 docker-compose --version
 docker login
 ```
 
-## Running the container
-- Clone the github repo (to run container using docker-compose. For other ways of running, checkout the README file in the repo)
+## 4 Running the container
+- 4.1 Clone the github repo (to run container using docker-compose. For other ways of running, checkout the README file in the repo)
 ``` bash
 git clone https://github.com/Mohitsharma44/ucsl-image
 cd ucsl-image/image/
 ```
 
 
-- Edit docker-compose to point to the correct volume where you have the notebooks or want the notebooks to persist
+- 4.2 Edit docker-compose to point to the correct volume where you have the notebooks or want the notebooks to persist
 ``` yaml
 version: '2.3'
 
@@ -67,14 +67,14 @@ services:
         source: <relative or absolute path to your notebooks directory>
         target: /home/${NB_USER}/puinotebooks/
 ```
-- Run the container
+- 4.3 Run the container
 ``` bash
 $ cd ucsl-image/image
 $ docker-compose up
 ```
 > you can pass the -d flag to `docker-compose up` if you want to run this as a daemon
 
-## Stopping the container
+## 5 Stopping the container
 ``` bash
 docker stop ucsl-container
 ```
