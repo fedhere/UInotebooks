@@ -42,6 +42,9 @@ docker login
 git clone https://github.com/Mohitsharma44/ucsl-image
 cd ucsl-image/image/
 ```
+
+**even if you cannot get this far due to installation issues, make sure you download both the docker image and the docker software**
+
 - Edit docker-compose to point to the correct volume where you have the notebooks or want the notebooks to persist
 ``` yaml
 version: '2.3'
