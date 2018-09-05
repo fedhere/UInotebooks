@@ -1,3 +1,7 @@
+**NOTE: even if you cannot get this far due to installation issues, make sure you download both the docker image and the docker software so we do not run into issues with slow wireless tomorrow **
+
+
+
 ## Registering for an account on dockerhub
 - Go to https://hub.docker.com and register yourself (you can use any username and email address that you wish)
 - Login to https://hub.docker.com
@@ -43,7 +47,6 @@ git clone https://github.com/Mohitsharma44/ucsl-image
 cd ucsl-image/image/
 ```
 
-**even if you cannot get this far due to installation issues, make sure you download both the docker image and the docker software**
 
 - Edit docker-compose to point to the correct volume where you have the notebooks or want the notebooks to persist
 ``` yaml
