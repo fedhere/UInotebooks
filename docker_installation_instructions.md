@@ -41,13 +41,13 @@ docker login
 ```
 
 ## 4 Running the container
-- 4.1 Clone the github repo (to run container using docker-compose. For other ways of running, checkout the README file in the repo)
+* 4.1 Clone the github repo (to run container using docker-compose. For other ways of running, checkout the README file in the repo)
 ``` bash
 git clone https://github.com/Mohitsharma44/ucsl-image
 cd ucsl-image/image/
 ```
 
-- 4.2 Edit docker-compose to point to the correct volume where you have the notebooks or want the notebooks to persist
+* 4.2 Edit docker-compose to point to the correct volume where you have the notebooks or want the notebooks to persist
 *You don't need to run this block of code. It is the content of ucsl-image/image/docker-compose.yml file.*
 
 ``` yaml
@@ -69,18 +69,45 @@ services:
         target: /home/${NB_USER}/puinotebooks/
 ```
 
-- 4.3 Run the container (see note below to change the username)
-``` bash
-$ cd ucsl-image/image
-$ echo NB_USER=ucsl_user > .env
-$ docker-compose up
+* 4.3 Run the container (see note below to change the username)
+
+There are two ways for running the container. You can chose to follow any ONE (not both) of the following:
+
+**4.3.1 Using environment variable**
+    
+    ``` bash
+    $ cd ucsl-image/image
+    $ echo NB_USER=ucsl_user > .env
+    $ docker-compose up
+    ```
+    > - If you want to personalize your container, you can use your own username inside the container; to do that you can do the following. 
+    >``` bash
+    >$ cd ucsl-image/image
+    >$ echo NB_USER=<your username> > .env
+    >$ docker-compose up build
+    >```
+    
+**4.3.2 Editing the docker-compose.yml file and changing the mentions of NB_USER.** 
+It should look something like this (changed <username> to a username of your choice):
+``` yaml
+    
+version: '2.3'
+
+services:
+  ucsl:
+  container_name: ucsl-container
+  build:
+    context: .
+    args:
+      NB_USER: <username>
+  image: mohitsharma44/ucsl-image:latest
+  ports:
+    - "8888:8888"
+  volumes:
+    - type: bind
+      source: <relative or absolute path to your notebooks directory>
+      target: /home/<username>/puinotebooks/   
 ```
-> - If you want to personalize your container, you can use your own username inside the container; to do that you can do the following. 
->``` bash
->$ cd ucsl-image/image
->$ echo NB_USER=<your username> > .env
->$ docker-compose up build
->```
 
 > - you can pass the -d flag to `docker-compose up` if you want to run this as a daemon
 
@@ -102,6 +129,7 @@ docker rm -f ucsl-container
 ## FAQ
 
 - I'm running windows and during installation I get the following error:
+
 ```
 Docker for Windows requires Windows 10 PRO or Enterprise version XXXXX or Windows Server XXXX RTM to run
 ```
@@ -110,6 +138,7 @@ Are you running Windows 10 **PRO**?[https://support.microsoft.com/en-us/help/134
 > Make sure you are running 64bit Windows 10 Pro, Enterprise (1607 Anniversary Update, Build 14393 or later).
 
 - I am running Windows 10 (Home or anything else) and I get the following error (or similar error about HyperV):
+
 ```
 HyperV is not available on Home editions. Please use Docker Toolbox
 ```
@@ -117,12 +146,15 @@ As a matter of [fact](https://docs.docker.com/docker-for-windows/install/#downlo
 Download [https://docs.docker.com/v17.09/toolbox/toolbox_install_windows/](Docker ToolBox) and install it.
 
 - Still having Docker installation issues on Windows?
+
 Try installing one of the versions mentioned on this page:
 https://docs.docker.com/docker-for-windows/release-notes/
 
 - Still no dice?
+
 Make sure HyperV is enabled on your machine. Check [https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v](How-TO)
 
 - Still nothing?
+
 Switch to [https://www.ubuntu.com/](Linux) already. SMH
 (sorry, I'm all out of options right now. Try Google or come meet me after class and I can point you to last years document on running PUI in a VM on your local machine.)
