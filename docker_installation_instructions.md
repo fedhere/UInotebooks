@@ -125,6 +125,24 @@ docker-compose down
 docker rm -f ucsl-container
 ```
 
+## 6 Commiting the changes made to the container (w/ optional tag)
+``` bash
+docker commit -m "<informative message>" <container name> <dockerhub username>/<image name>:[tag]
+```
+for e.g, (using todays date as my tag)
+``` bash
+docker commit -m "Added X package" ucsl-container mohitsharma44/pui2018:2018-08-06
+```
+
+## 7 Pushing the image to dockerhub repository (w/ optional tag)
+``` bash
+docker push <dockerhub username>/<image name>
+```
+for e.g
+``` bash
+docker push mohitsharma44/pui2018:2018-08-06
+```
+
 
 ## FAQ
 
