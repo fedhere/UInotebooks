@@ -1,0 +1,58 @@
+State	Common name
+Alabama	Camellia
+Alaska	Forget-me-not
+American Samoa	Paogo (Ulafala)
+Arizona	Saguaro cactus blossom
+Arkansas	Apple blossom
+California	California poppy
+Colorado	Rocky Mountain columbine
+Connecticut	Mountain laurel
+Delaware	Peach blossom
+District of Columbia	American Beauty Rose
+Florida	Orange blossom
+Georgia	Cherokee rose (state floral emblem)
+Guam	Bougainvillea spectabilis
+Hawaii	Hawaiian hibiscus
+Idaho	Syringa, mock orange
+Illinois	Violet
+Indiana	Peony
+Iowa	Wild prairie rose
+Kansas	Sunflower
+Kentucky	Goldenrod
+Louisiana	Magnolia
+Maine	White pine cone and tassel
+Maryland	Black-eyed susan
+Massachusetts	Mayflower
+Michigan	Apple blossom
+Minnesota	Pink and white lady's slipper
+Mississippi	Magnolia
+Missouri	Hawthorn
+Montana	Bitterroot
+Nebraska	Goldenrod
+Nevada	Sagebrush
+New Hampshire	Purple lilac
+New Jersey	Violet
+New Mexico	Yucca flower
+New York	Rose
+North Carolina	Flowering dogwood
+North Dakota	Wild prairie rose
+Northern Mariana Islands	Flores mayo
+Ohio	Scarlet carnation
+Oklahoma	Oklahoma rose
+Oregon	Oregon grape
+Pennsylvania	Mountain laurel
+Puerto Rico	Maga
+Rhode Island	Violet
+South Carolina	Yellow jessamine
+South Dakota	Pasque flower
+Tennessee	Iris
+Texas	Bluebonnet sp.
+Utah	Sego lily
+Vermont	Red clover
+Virgin Islands	Yellow Elder
+Virginia	American dogwood
+Washington	Coast rhododendron
+West Virginia	Rhododendron
+Wisconsin	Wood violet
+Wyoming	Indian paintbrush
+
