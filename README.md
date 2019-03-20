@@ -7,7 +7,7 @@ This is a repo contains ALL code generated for [Principles of Urban Informatics 
 
 (previous years: [2015 is here ](http://cosmo.nyu.edu/~fb55/UI_CUSP_2015))
 
-For the current homework sets and labs go to [this](http://github.com/fedhere/PUI2016_fb55) Github repo.
+For the current homework sets and labs go to [this](http://github.com/fedhere/PUI2018_fb55) Github repo.
 
 
 
@@ -32,7 +32,7 @@ git pull
 
 but you will not be able to make changes to my repository (as it should be).
 
-Otherwise, if you want the repository on your account, with the ability to  make changes _to your own copy_, you can __fork__ the repository and have your own copy in your github account (it will be at http://github.com/<username>/PUI2016_fb55). In which case you want to _keep it synchronized_ following these instructions to [coniguting a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/) and [syncing a fork](https://help.github.com/articles/syncing-a-fork/)
+Otherwise, if you want the repository on your account, with the ability to  make changes _to your own copy_, you can __fork__ the repository and have your own copy in your github account (it will be at http://github.com/<username>/PUI2018_fb55). In which case you want to _keep it synchronized_ following these instructions to [coniguting a remote for a fork](https://help.github.com/articles/configuring-a-remote-for-a-fork/) and [syncing a fork](https://help.github.com/articles/syncing-a-fork/)
  
  _If you see a mistake (there are many of course) and you want to propose a change you can submit a pull request, but be very clear about the change and it motivation in the description of your pull request, otherwise I will likely dismiss it as something you did accidentally._
  
@@ -116,4 +116,4 @@ Missing Topics that could or should be included:
 
 
 
-# PUI2017_fb55
+# PUI2018_fb55
