@@ -1,0 +1,20 @@
+figure.facecolor :white
+axes.labelcolor : .15
+xtick.direction : in
+ytick.direction : in
+xtick.color : .15
+ytick.color : .15
+axes.axisbelow : True
+grid.linestyle : -
+text.color : .15
+font.family : ["sans-serif"]
+font.sans-serif : ["Arial", "DejaVu Sans", "Liberation Sans",
+                   "Bitstream Vera Sans", "sans-serif"]
+font.size : 18
+lines.solid_capstyle : round
+patch.edgecolor : w
+patch.force_edgecolor : True
+image.cmap : viridis
+xtick.top : True
+ytick.right : True
+axes.grid : False
