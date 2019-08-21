@@ -1,4 +1,5 @@
 figure.facecolor : FCF1EC
+axes.facecolor: E5E5E5
 axes.labelcolor : .15
 xtick.direction : in
 ytick.direction : in
