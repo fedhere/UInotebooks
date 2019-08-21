@@ -12,7 +12,7 @@ axes.axisbelow : True
 grid.linestyle : -
 text.color : .15
 font.family : ["sans-serif"]
-font.size : 18
+font.size : 15
 lines.solid_capstyle : round
 patch.edgecolor : w
 patch.force_edgecolor : True
