@@ -8,8 +8,7 @@ axes.axisbelow : True
 grid.linestyle : -
 text.color : .15
 font.family : ["sans-serif"]
-font.sans-serif : ["Arial", "DejaVu Sans", "Liberation Sans",
-                   "Bitstream Vera Sans", "sans-serif"]
+font.sans-serif : ["Arial", "DejaVu Sans", "Liberation Sans", "Bitstream Vera Sans", "sans-serif"]
 font.size : 18
 lines.solid_capstyle : round
 patch.edgecolor : w
