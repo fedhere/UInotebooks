@@ -1,5 +1,8 @@
-figure.facecolor : FCF1EC
-axes.facecolor: E5E5E5
+axes.facecolor      : FCF1EC   
+figure.facecolor : FCF1EC  
+figure.edgecolor : FCF1EC   
+savefig.facecolor : FCF1EC    
+savefig.edgecolor : FCF1EC    
 axes.labelcolor : .15
 xtick.direction : in
 ytick.direction : in
