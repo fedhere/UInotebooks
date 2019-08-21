@@ -1,4 +1,4 @@
-figure.facecolor : #FCF1EC
+figure.facecolor : FCF1EC
 axes.labelcolor : .15
 xtick.direction : in
 ytick.direction : in
