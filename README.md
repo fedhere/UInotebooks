@@ -3,11 +3,11 @@
 ## Diversity is considered a resource that enriches us culturally and intellectually in this class. No instances of harassment or attempts to marginalize students will be tolerated in my class. If you have concerns please come talk to me
 
 
-This is a repo contains ALL code generated for [Principles of Urban Informatics Class at NYU CUSP Fall 2016-18](http://cosmo.nyu.edu/~fb55/PUI2016/) for all the lectures taught by [FBB](http://fbb.space). 
+This is a repo contains ALL code generated for [Principles of Urban Informatics Class at NYU CUSP Fall 2016-18](http://cosmo.nyu.edu/~fb55/PUI2018/) for all the lectures taught by [FBB](http://fbb.space). 
 
 (previous years: [2015 is here ](http://cosmo.nyu.edu/~fb55/PUI2018))
 
-For the current homework sets and labs go to [this](http://github.com/fedhere/PUI2018_fb55) Github repo.
+For the current homework sets and labs go to [this](http://github.com/fedhere/UI_CUSP_fb55) Github repo.
 
 
 
