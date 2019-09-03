@@ -5,7 +5,7 @@
 
 This is a repo contains ALL code generated for [Principles of Urban Informatics Class at NYU CUSP Fall 2016-18](http://cosmo.nyu.edu/~fb55/PUI2016/) for all the lectures taught by [FBB](http://fbb.space). 
 
-(previous years: [2015 is here ](http://cosmo.nyu.edu/~fb55/UI_CUSP_2015))
+(previous years: [2015 is here ](http://cosmo.nyu.edu/~fb55/PUI2018))
 
 For the current homework sets and labs go to [this](http://github.com/fedhere/PUI2018_fb55) Github repo.
 
